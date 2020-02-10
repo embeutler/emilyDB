@@ -433,13 +433,12 @@ margin: 0px;
 .bg-parlex {
 padding-top: 0px;
 background-image: url('../images/backpro.jpg');
-background-size: 20%;
-background-repeat: repeat-x repeat-y;
-
+background-size:100%;
+background-repeat: no;
 background-attachment: fixed;
 }
 .parlex-back {
-padding: 30px 0;
+padding: 20px 0;
 background-color: rgba(0, 0, 0, 0.37);
 color: #FDFDFD !important;
 }
@@ -456,7 +455,7 @@ margin-top: 5px;
 background-color: #D6D6D6;
 }
 .progress .progress-bar {
-background-color: rgb(112, 130, 165);
+background-color: teal;
 }
 /*Skills*/
 
