@@ -918,7 +918,7 @@ footer {
         user-select: none;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
-.btn btn-info
-{ background-color: grey;
+btn
+{background-color: grey;
  width: 40pt;
  height: 25pt} 
