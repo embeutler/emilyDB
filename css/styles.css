@@ -124,7 +124,7 @@ margin: 4px;
 ----------------------------------------------*/
 .header {
     position: fixed;
-    width: 100%;
+    width: auto;
     background:rgb(184, 207, 209);
     z-index: 50;
     border-radius: 0;
@@ -234,6 +234,8 @@ background: none;
     font-size: 2.2em;
     text-shadow: none;
     margin: 8px 0 0 0;
+    height: auto;
+    width: auto;
 }
 
     .logo:hover {
@@ -340,7 +342,7 @@ background: none;
 
     .banner-content p {
         padding-top: 30px;
-        font-size: 20px;
+        font-size: 20pt;
         text-shadow: rgb(178, 226, 219) 22px 15px 15px;
         font-style: italic;
         color: rgb(32, 60, 71);
