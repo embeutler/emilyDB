@@ -52,9 +52,10 @@
 }
 .da-slide h2{
 	color: rgb(0, 0, 0);
-	font-size: 46px;
+	font-size: 32px;
 	width: 80%;
 	top: 60px;
+	font-family: 'Lexend Mega' ;
 	white-space: prewrap;
 	z-index: 10;
 	text-shadow: 18px 18px 10px rgb(7, 255, 152); 
@@ -64,7 +65,7 @@
 }
 .da-slide p{
 	width: 80%;
-	top: 155px;
+	top: 100px;
 	text-decoration-line: underline;
 	text-decoration-color:  rgb(7, 255, 152);
 	color: #000000;
