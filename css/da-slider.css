@@ -1,7 +1,7 @@
 .da-slider{
-	width: 100%;
-	min-width: 520px;
-	height: 500px;
+	width: auto;
+	min-width: auto;
+	height: auto;
 	position: relative;
 	margin: 4% auto;
 	overflow: hidden;
@@ -18,10 +18,10 @@
 .da-slide{
 	position: absolute;
 	width: 100%;
-	height: 100%;
+	height: 220px;
 	top: 0px;
 	left: 0px; 
-	text-align: left;
+	text-align: center;
 }
 .da-slide-current{
 	z-index: 1000;
@@ -51,33 +51,32 @@
 	opacity: 1;
 }
 .da-slide h2{
-	color: #fff;
-	font-size: 66px;
-	width: 50%;
+	color: rgb(0, 0, 0);
+	font-size: 46px;
+	width: 80%;
 	top: 60px;
-	white-space: nowrap;
+	white-space: prewrap;
 	z-index: 10;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.1); 
+	text-shadow: 18px 18px 10px rgb(7, 255, 152); 
 	font-weight: 700;
+	text-decoration-line: underline;
+	text-decoration-color:  rgb(7, 255, 152);
 }
 .da-slide p{
-	width: 45%;
+	width: 80%;
 	top: 155px;
-	color: #916c05;
-	font-size: 18px;
-	line-height: 26px;
-	height: 80px;
-	overflow: hidden;
-	font-style: italic;
-	font-weight: 400;
+	text-decoration-line: underline;
+	text-decoration-color:  rgb(7, 255, 152);
+	color: #000000;
+	font-size: 26px;
+	text-shadow: 12px 12px 8px rgb(7, 255, 152); 
+	overflow: auto;
 	font-style: italic;
 }
 .da-slide .da-img{
 	text-align: center;
 	width: 30%;
 	top: 70px;
-	height: 256px;
-	line-height: 320px;
 	left: 110%; /*60%*/
 }
 .da-slide .da-link{
